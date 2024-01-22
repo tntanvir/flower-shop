@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    background-color: #e55473;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#hero {
+    background-color: #fceef1;
+}
+
+#h-img {
+    height: 500px;
+
+
+}
+
+.h-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 9rem 0 9rem;
+    height: 100vh;
+
+}
+
+#h-text {
+    color: #272727;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.h-right {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+
+#h-pra {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-block: 20px;
+
+}
+
+#Featured {
+    height: 100vh;
+
+    background-color: aquamarine;
+}
+
+.f-header {
+    text-align: center;
+    width: 42%;
+    /* background-color: blueviolet; */
+}
+
+.flowers {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.f-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    height: 100vh;
+
+}
+
+.flowr {
+    /* border: 2px solid black; */
+    border-radius: 10rem 10rem 0 0;
+    display: flex;
+    align-items: end;
+    height: 400px;
+    padding: 0 2rem;
+}
+
+.f {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.flowr img {
+    width: 250px;
+}
+
+#f1 {
+    background-color: #a7216226;
+}
+
+#f2 {
+    background-color: #daf0f1;
+}
+
+#f3 {
+    background-color: #e4ecdc;
+}
