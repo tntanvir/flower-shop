@@ -6,8 +6,15 @@
     font-family: 'Lato', sans-serif;
 }
 
+:root {
+    --text-color: #27272799;
+    --bg-main: #fceef1;
+    --bold-color: #e55473;
+}
+
 .btn {
-    background-color: #e55473;
+
+    background-color: var(--bold-color);
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -16,7 +23,7 @@
 }
 
 #hero {
-    background-color: #fceef1;
+    background-color: var(--bg-main);
 }
 
 #h-img {
@@ -48,7 +55,7 @@
 
 
 #h-pra {
-    color: #27272799;
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -118,4 +125,199 @@
 
 #f3 {
     background-color: #e4ecdc;
+}
+
+#ssection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.d-servic {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 15rem;
+    align-items: center;
+}
+
+.s-item {
+    color: var(--text-color);
+    font-size: small;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.discount {
+    background-color: var(--bg-main);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 10rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.left h1 {
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+.left span {
+    color: var(--bold-color);
+}
+
+#instaram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 7rem 0;
+}
+
+#i-head {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+
+}
+
+
+#i-head h1 {
+    font-size: 2rem;
+}
+
+#instaram img {
+    width: 14rem;
+
+    transition: transform 0.5s;
+}
+
+.imdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.imdiv img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    /* animation-delay: 10s; */
+}
+
+#ssub {
+    padding-inline: 150px;
+    padding-bottom: 6rem;
+}
+
+#subscribe {
+    background-image:
+        url("/Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#subscribe input {
+    padding: 1rem 2rem;
+    width: 70%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+
+}
+
+#subscribe input:focus {
+    border: 2px solid var(--bold-color);
+    /* background-color: red; */
+}
+
+#Email {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#subscribe p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+footer {
+    background-color: #111010;
+    color: white;
+    height: 10rem;
+    padding: 5rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+footer div {
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer div h1 span {
+    color: var(--bold-color)
+}
+
+footer div p {
+    color: #FFFFFFE5;
+}
+
+footer .p {
+    color: #ffffff66;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: #ffffff66;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
 }
